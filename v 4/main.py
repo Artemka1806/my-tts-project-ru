@@ -14,7 +14,7 @@ m = Menu(root)
 root.config(menu=m) 
 
 m.add_command(label='Открыть',command=lambda: o())
-m.add_command(label='Переобразовать',command=lambda: se())
+m.add_command(label='Переобразовать',command=lambda: s())
 
 entry = Text( width=100,relief = 'flat')
 entry.grid(row=5,column=0, padx=0, pady=1)
